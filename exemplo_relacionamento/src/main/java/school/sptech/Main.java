@@ -17,5 +17,7 @@ public class Main {
         playlist1.adicionarMusica(musica3);
 
         System.out.println(playlist1);
+
+        System.out.println(playlist1.calcularDuracao());
     }
 }

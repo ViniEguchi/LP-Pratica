@@ -19,6 +19,16 @@ public class Playlist {
         this.musicas.add(novaMusica);
     }
 
+    public Integer calcularDuracao() {
+        Integer soma = 0;
+
+        for (Musica musicaDaVez : this.musicas) {
+            soma += musicaDaVez.getDuracao();
+        }
+
+        return soma;
+    }
+
     public String getNome() {
         return nome;
     }
