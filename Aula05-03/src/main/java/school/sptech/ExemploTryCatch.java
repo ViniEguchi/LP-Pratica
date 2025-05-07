@@ -6,13 +6,11 @@ import java.util.Scanner;
 public class ExemploTryCatch {
 
     public static void main(String[] args) {
-
         Scanner leitor = new Scanner(System.in);
 
         Integer numero1 = null;
         Integer numero2 = null;
         do {
-
             try {
                 System.out.println("Digite um número inteiro");
                 numero1 = leitor.nextInt();

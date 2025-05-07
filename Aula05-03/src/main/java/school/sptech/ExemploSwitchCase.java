@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ExemploSwitchCase {
 
     public static void main(String[] args) {
-
         Scanner leitor = new Scanner(System.in);
 
         System.out.println("Digite um número de 1 a 7:");
