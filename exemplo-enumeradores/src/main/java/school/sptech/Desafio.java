@@ -10,8 +10,8 @@ public class Desafio {
 
         do {
             try {
-            System.out.println("Digite o valor da carta");
-            valor = leitor.nextInt();
+                System.out.println("Digite o valor da carta");
+                valor = leitor.nextInt();
             } catch (InputMismatchException e) {
                 leitor.next();
             }
@@ -47,7 +47,7 @@ public class Desafio {
 
         System.out.println(carta);
 
-        // baseado em "valor" e "naipe" criar uma nova carta
+        // baseado em "valor" e "naipe" criar uma carta
 
     }
 }
