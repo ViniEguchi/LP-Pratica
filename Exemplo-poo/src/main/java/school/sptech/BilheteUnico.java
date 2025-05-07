@@ -1,7 +1,6 @@
 package school.sptech;
 
 public class BilheteUnico {
-
     private String nomeUsuario;
     private Integer anoEmissao;
     private String cor;

@@ -7,7 +7,6 @@ import java.util.List;
 public class TesteIngresso {
 
     public static void main(String[] args) {
-
         Ingresso i1 = new Ingresso(2, false);
         Ingresso i2 = new Ingresso(3, true);
         Ingresso i3 = new Ingresso(1, true);

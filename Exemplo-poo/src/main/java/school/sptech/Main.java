@@ -3,7 +3,6 @@ package school.sptech;
 public class Main {
 
     public static void main(String[] args) {
-
 //        BilheteUnico bilhete1 = new BilheteUnico();
 //        bilhete1.nomeUsuario = "Murilo";
 //        bilhete1.cor = "Verde";

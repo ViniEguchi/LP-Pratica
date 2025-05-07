@@ -1,7 +1,6 @@
 package school.sptech;
 
 public class Ingresso {
-
     private Integer sala;
     private Boolean meiaEntrada;
 
