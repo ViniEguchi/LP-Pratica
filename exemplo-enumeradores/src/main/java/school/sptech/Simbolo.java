@@ -24,4 +24,14 @@ public enum Simbolo {
     public Integer getValor() {
         return valor;
     }
+
+    public static Simbolo fromInteger(Integer valor) {
+        for (Simbolo simboloDaVez : Simbolo.values()) {
+            if (simboloDaVez.getValor().equals(valor)) {
+                return simboloDaVez;
+            }
+        }
+
+        return null;
+    }
 }

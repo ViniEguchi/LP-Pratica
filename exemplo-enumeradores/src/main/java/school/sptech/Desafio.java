@@ -43,6 +43,8 @@ public class Desafio {
             }
         }
 
+        Simbolo simbolo = Simbolo.fromInteger(valor);
+
         System.out.println(carta);
 
         // baseado em "valor" e "naipe" criar uma nova carta
