@@ -21,6 +21,8 @@ public class PlayerTocandoState extends PlayerState {
         Integer musicaAtual = this.getPlayer().getMusicaAtual();
         if (musicaAtual + 1 >= this.getPlayer().getFila().size()) {
             System.out.println("Não há uma próxima música");
+            this.getPlayer().setState(new PlayerParadoState(this.getPlayer()));
+            this.getPlayer().setMusicaAtual(0);
             return;
         }
 
