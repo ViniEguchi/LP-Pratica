@@ -20,7 +20,7 @@ public class Player {
 
     public void tocandoAgora() {
         this.state.tocandoAgora();
-        //        if (fila.isEmpty()) {
+//        if (fila.isEmpty()) {
 //            System.out.println("Fila vazia");
 //            return;
 //        }
